@@ -25,3 +25,28 @@ I have created a dummy user named `vidit` for using the site .
 <br /> Login credential for website :
  <br />     username : `vidit`
  <br />      password : `12345678`
+ 
+ ## Snapshot
+ <br /> 1) Front Page :
+ ![alt text](images/front_page.png)
+
+<br /> 2 ) Profile
+ ![alt text](images/profile.png)
+ 
+ <br /> 3 ) HotelViewing
+ ![alt text](images/HotelViewing.png)
+ 
+ <br /> 4 ) Hotel Fetch Json
+ ![alt text](images/HotelFetchJson.png)
+ 
+ <br /> 5 ) Hotel Booking Part
+ ![alt text](images/HotelBookingPart.png)
+ 
+ <br /> 6 ) Visitor Count
+ ![alt text](images/visitor_count.png)
+ 
+ <br /> 7 ) Payment
+ ![alt text](images/payment.png)
+ 
+ <br /> 8 ) Hotel Booked
+ ![alt text](images/hotelBooked.png)
