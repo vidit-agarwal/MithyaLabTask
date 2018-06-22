@@ -1,0 +1,100 @@
+body
+{
+	background-color: #EAEBED !important;
+}
+#welcome
+{
+    height:55px;
+    background-color: #a09e9e;;
+    color: #3d3d3d;
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+#wallet
+{
+
+	position: absolute;
+	top: 20%;
+	left:10%;
+	height: auto;
+	width: 80%;
+}
+
+#wallet > h2
+{
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#wallet_wrapper
+{
+	background-color: #fdfdfd;
+	border-radius: 4px;
+	height: 70px;
+	cursor: pointer;
+	box-shadow: 0px 0px 12px 1px grey;
+	padding: 10px 10px 10px 10px;
+}
+#wallet_wrapper:hover
+{
+	background-color: #f6f6f6;
+}
+
+#wallet_wrapper_left
+{
+	width: 50%;
+	height: auto;
+	display: inline;
+	float: left;
+	text-align: center;
+}
+#wallet_wrapper_left span
+{
+	position: relative;
+	top: -10px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+#wallet_wrapper_right
+{
+	text-align: center;
+	width: 50%;
+	height: auto;
+	display: inline;
+	float: right;
+}
+#other_payment
+{
+	position: absolute;
+	top: 40%;
+	left:10%;
+	height: auto;
+	width: 80%;
+}
+#other_payment >h2
+{
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#coming_soon
+{
+	background-color: #fdfdfd ;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-style: italic;
+	cursor: wait;
+}

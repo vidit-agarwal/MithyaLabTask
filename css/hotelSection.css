@@ -1,0 +1,165 @@
+body
+{
+    background-color: #EAEBED !important;
+}
+div.polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
+
+div.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+#album
+{
+    position: absolute;
+    top:20%;
+    left: 20%;
+}
+
+#album div p
+{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#welcome
+{
+    height:55px;
+    background-color: #a09e9e;;
+    color: #3d3d3d;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#welcome > span
+{
+     font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+#visitor_count
+{
+    position: absolute;
+    left: 45%;
+    bottom: -10%;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+
+}
+
+#book_hotel
+{
+    background-color: red;
+    width: 60%;
+    box-shadow: 0px 0px 12px 2px #d3d3d3;
+    background-color: #f8f8f8;
+    padding : 2% 2% 2% 2%;
+    position: absolute;
+    top: 60%;
+    left:18%;
+    right: 18%;
+    border-radius: 3px;
+    border : 1px solid #d3d3d3;
+}
+
+#book_hotel>h2
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*confirm_dialog*/
+.confirm_dg {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* confirm_dg Content */
+.confirm_dg-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.confirm_dg-header {
+    padding: 2px 16px;
+    background-color: white;
+    color: #a09e9e;
+}
+
+.confirm_dg-header h2
+{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.confirm_dg-body {padding: 2px 16px;}
+
+.confirm_dg-footer {
+    padding: 2px 16px;
+    background-color: white;
+    color: #a09e9e;
+}

@@ -1,0 +1,239 @@
+body
+{
+	background-color: #EAEBED !important;
+}
+#welcome
+{
+	height:55px;
+	background-color: #a09e9e;;
+    color: #3d3d3d;
+    text-align: center;
+   	font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#welcome > span
+{
+	 font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+#mainWrapper
+{
+	position: absolute;
+	top:60%;
+	margin-bottom: 20%;
+	border-radius: 4px;
+	box-shadow: 0px 0px 12px 2px #d3d3d3;
+	left: 20%;
+	height: auto;
+	background-color: white;
+}
+
+.heading
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	width:100%;
+}
+.heading>h2
+{
+	font-weight: 600;
+	font-size: 25px;
+	color :#3d3d3d;
+}
+
+.subHeading
+{
+	font-weight: 400;
+	font-family: sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.subHeading >h4
+{
+	font-size: 20px;
+}
+
+#hotelSelect
+{
+	margin-top:40px;
+	margin-bottom:10px;
+	width:50%;
+	margin-right: 25%;
+	margin-left: 25%;
+
+}
+.btn
+{
+	display: block;
+	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 25%;
+}
+
+#wrapperDesc
+{
+	width:50%;
+	height: auto;
+	display: none;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 10px;
+}
+#wrapperDesc div 
+{
+	display: inline;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #a09e9e;
+	margin-left: 10px;
+	position: relative;
+	top: -9px;
+}
+
+#rooms div
+{
+	margin-left:10px;
+	position: relative;
+	left: 8%;
+}
+
+#rooms div:first-child
+{
+	margin-left: -40px;
+}
+
+#logout
+{
+	float: right; color:white; 
+	cursor:pointer;
+	text-decoration:none;
+}
+#logout:hover
+{
+	text-decoration: underline;
+}
+
+#or
+{
+	position: absolute;
+	top:50%;
+	font-family: sans-serif;
+	font-weight: 600;
+
+}
+#title_confirm
+{
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	margin-top: 5px;
+	text-align: center;
+}
+#title_draft
+{
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	margin-top: 5px;
+	text-align: center;
+	
+}
+#doBook
+{
+	background-color: white;
+	width: 40%;
+	 margin:5%;
+	  display: inline;
+	  float:  right; 
+
+	border-radius: 4px;
+	box-shadow: 0px 0px 12px 2px #d3d3d3;
+
+	
+	height: 300px;
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+#bookingContent
+{
+	width: 60%;
+	cursor: pointer;
+	margin-left: 20%;
+	border: 1px solid #d3d3d3;
+	height:100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#bookingContent:hover
+{
+	box-shadow: 0px 0px 12px 2px #d3d3d3;
+}
+#bookingContent_left
+{
+	padding: 5px;
+	width:30%;
+	display: inline;
+	float: left;
+}
+#bookingContent_right
+{
+	width: 50%;
+	display: inline;
+	float: left;
+	margin-top: 10px;
+}
+
+#bookingRight
+{
+	width: 20%;
+	margin-top:25px;
+	display: inline;
+	float: left;
+}
+
+ .suc_tip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    
+    position: absolute;
+    z-index: 1;
+}
+
+ .tip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    
+    position: absolute;
+    z-index: 1;
+}
+
+#bookingRight:hover .tip {
+  visibility: visible;
+    
+}
+
+#bookingRight:hover .suc_tip {
+  visibility: visible;
+    
+}
