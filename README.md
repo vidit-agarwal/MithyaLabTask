@@ -16,3 +16,12 @@ This repository for Mithya Lab Task
 
 <br/>[/New/] In this , i have created a dummy wallet . but if you say I can integrte paypal in it (by nodejs) I have worked on it in previous projects
 
+## How to Use :
+<br /> Pu the whole code into the `/var/www/html/` directory , if u are using linux
+<br/> For windows put in `wamp www` directory
+
+## Few Points :
+I have created a dummy user named `vidit` for using the site .
+<br /> Login credential for website :
+ <br />     username : `vidit`
+ <br />      password : `12345678`
