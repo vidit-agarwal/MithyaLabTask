@@ -1,0 +1,86 @@
+[
+	{
+		"name" : "The Lalit",
+		"uniq_id" : 1209 ,
+		"rooms" : {
+			"Presidential Suit" : 20 ,
+			"Luxury Rooms" : 45,
+			"Semi Luxury" : 20
+		},
+		"location" : "Barakhamba Road, Connaught Place, New Delhi, Delhi 110001" ,
+		"phone" : "011 4444 7777" ,
+		"rating" : 5 ,
+		"price" : 3000
+	},
+	{
+		"name" : "Hyatt Regency",
+		"uniq_id" : 1009 ,
+		"rooms" : {
+			"Presidential Suit" : 15 ,
+			"Luxury Rooms" : 35,
+			"Semi Luxury" : 30,
+			"Guest" :10
+		},
+		"location" : "Bhikaiji Cama Place Ring Road, Near Fire Station, New Delhi, Delhi 110066" ,
+		"phone" : "011 2679 1234" ,
+		"rating" :  4,
+		"price" : 2500
+	},
+	{
+		"name" : "The Ashok",
+		"uniq_id" : 3009 ,
+		"rooms" : {
+			"Presidential Suit" : 5 ,
+			"Luxury Rooms" : 45,
+			"Normal" :20
+		},
+		"location" : "50-B, Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110021" ,
+		"phone" : "011 2611 0101" ,
+		"rating" :  5,
+		"price" : 5000
+	},
+	{
+		"name" : "The Suryaa",
+		"uniq_id" : 349 ,
+		"rooms" : {
+			"Luxury Rooms" : 45,
+			"Normal" :20
+		},
+		"location" : "New Friends Colony, New Delhi, Delhi 110025" ,
+		"phone" : "011 4780 8080" ,
+		"rating" :  3,
+		"price" : 2000
+	},
+	{
+		"name" : "The Taj Mahal",
+		"uniq_id" : 349 ,
+		"rooms" : {
+			"Presidential Suit" :40,
+			"Luxury Rooms" : 45,
+			"Semi Luxury" :20,
+			"Normal" :20 ,
+			"Guest" :5
+		},
+		"location" : "No.1, Man Singh Rd, South Block, Man Singh Road Area, New Delhi, Delhi 110001" ,
+		"phone" : "011 6656 6162" ,
+		"rating" :  5,
+		"price" : 5500
+	},
+	{
+		"name" : "The Leela Ambience Convention",
+		"uniq_id" : 9821 ,
+		"rooms" : {
+			"Presidential Suit" :20,
+			"Luxury Rooms" : 15,
+			"Semi Luxury" :20,
+			"Normal" :10 ,
+			"Guest" :25
+		},
+		"location" : "1 CBD, Maharaja Surajmal Road, Near Yamuna Sports Complex, Delhi, 110032" ,
+		"phone" : "011 7172 1234" ,
+		"rating" :  5,
+		"price" : 5400
+	}
+
+	
+]
