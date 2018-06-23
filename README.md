@@ -31,7 +31,7 @@ I have created a dummy user named `vidit` for using the site .
  ![alt text](images/front_page.png)
 
 <br /> 2 ) Profile
- ![alt text](images/profile.png)
+ ![alt text](images/home(2).png)
  
  <br /> 3 ) HotelViewing
  ![alt text](images/HotelViewing.png)
